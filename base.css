@@ -151,7 +151,7 @@ button { font-family: inherit; cursor: pointer; }
 .btn-primary:hover { background: var(--teal-dark); }
 .btn-gold { background: var(--gold); color: var(--ink); }
 .btn-gold:hover { background: var(--gold-dark); color: var(--white); }
-.btn-outline { background: transparent; border-color: currentColor; color: var(--white); }
+.btn-outline { background: transparent; border-color: currentColor; color: var(--ink); }
 .section--dark .btn-outline { color: var(--white); }
 .btn-outline:hover { background: var(--ink); color: var(--white); }
 .btn-arrow::after { content: "→"; transition: transform 0.25s var(--ease); }
