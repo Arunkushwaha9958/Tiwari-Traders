@@ -233,12 +233,14 @@ li.has-dropdown.is-open .mega-panel {
     display: none; padding: 0.4rem 0 1rem;
   }
   li.has-dropdown.is-open .mega-panel  {
-        display: grid;
+        display: flex;
         grid-auto-flow: row;
         align-content: stretch;
-        justify-content: center;
-        align-items: baseline;
+        justify-content: space-around;
+        align-items: flex-end;
         justify-items: end;
+        flex-direction: column;
+        flex-wrap: wrap;
     }
 
   .nav-actions { margin-top: 1.4rem; flex-direction: column; align-items: stretch; gap: 1rem; }
