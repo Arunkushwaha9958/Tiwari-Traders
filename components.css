@@ -517,6 +517,30 @@
   margin-bottom: 0.9rem;
 }
 
+/* ================= CERTIFICATIONS ================= */
+.certifications { background: var(--silt); }
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
+.cert-card {
+  background: var(--white);
+  border: 1px solid var(--stone);
+  border-radius: var(--radius-m);
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.25s var(--ease), border-color 0.25s var(--ease);
+}
+.cert-card:hover { transform: translateY(-4px); border-color: var(--teal); }
+.cert-img {
+  width: 100%;
+  aspect-ratio: 3/4;
+  object-fit: contain;
+}
+
 /* ================= PAGE HEADER (interior pages) ================= */
 .page-header {
   background: var(--deep);
